@@ -13,6 +13,8 @@
 		4EC6456825D13A9000317867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6456625D13A9000317867 /* Main.storyboard */; };
 		4EC6456A25D13A9200317867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6456925D13A9200317867 /* Assets.xcassets */; };
 		4EC6456D25D13A9200317867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6456B25D13A9200317867 /* LaunchScreen.storyboard */; };
+		4EC6457725D13C7100317867 /* CustomVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC6457625D13C7100317867 /* CustomVideoViewController.swift */; };
+		4EC6457A25D1446D00317867 /* dummy.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6457525D13BEF00317867 /* dummy.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4EC6456925D13A9200317867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EC6456C25D13A9200317867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EC6456E25D13A9200317867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC6457525D13BEF00317867 /* dummy.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = dummy.m4v; sourceTree = "<group>"; };
+		4EC6457625D13C7100317867 /* CustomVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		4EC6455F25D13A9000317867 /* VideoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4EC6457525D13BEF00317867 /* dummy.m4v */,
 				4EC6456025D13A9000317867 /* AppDelegate.swift */,
 				4EC6456225D13A9000317867 /* SceneDelegate.swift */,
 				4EC6456425D13A9000317867 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				4EC6456925D13A9200317867 /* Assets.xcassets */,
 				4EC6456B25D13A9200317867 /* LaunchScreen.storyboard */,
 				4EC6456E25D13A9200317867 /* Info.plist */,
+				4EC6457625D13C7100317867 /* CustomVideoViewController.swift */,
 			);
 			path = VideoDemo;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				4EC6456D25D13A9200317867 /* LaunchScreen.storyboard in Resources */,
 				4EC6456A25D13A9200317867 /* Assets.xcassets in Resources */,
+				4EC6457A25D1446D00317867 /* dummy.m4v in Resources */,
 				4EC6456825D13A9000317867 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 				4EC6456525D13A9000317867 /* ViewController.swift in Sources */,
 				4EC6456125D13A9000317867 /* AppDelegate.swift in Sources */,
 				4EC6456325D13A9000317867 /* SceneDelegate.swift in Sources */,
+				4EC6457725D13C7100317867 /* CustomVideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
